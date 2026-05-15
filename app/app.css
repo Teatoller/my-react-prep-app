@@ -13,3 +13,41 @@ body {
     color-scheme: dark;
   }
 }
+
+.shopping-layout {
+  display: flex;
+  gap: 2rem;
+}
+
+.product-list {
+  flex: 1;
+}
+
+.filter-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.checkbox-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.cart-sidebar {
+  border-left: 1px solid #ccc;
+  padding-left: 1rem;
+  min-width: 220px;
+}
+
+.product-item,
+.cart-item {
+  margin-bottom: 0.75rem;
+}
+
+.cart-item button {
+  margin-left: 0.25rem;
+}
