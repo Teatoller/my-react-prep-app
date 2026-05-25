@@ -28,7 +28,7 @@ export function DebounceSearch() {
 
     return (
         <main className="flex items-center justify-center pt-16 pb-4">
-            <div>
+            <div className="text-black-800 dark:text-gray-800">
                 <h1>Debounce Search</h1>
                 <p>Type in the search box to see debounced results.</p>
                 <input
@@ -38,7 +38,7 @@ export function DebounceSearch() {
                     placeholder="Search..."
                     className="border p-2 rounded"
                 />
-                {isSearching && <p className="text-gray-500 mt-2">Searching...</p>}
+                {isSearching && <p className="text-gray-600 mt-2">Searching...</p>}
                 <ul className="mt-4">
                     {searchResults.map((result, index) => (
                         <li key={index}>{result}</li>
