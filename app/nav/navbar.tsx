@@ -14,7 +14,8 @@ const navItems = [
     { path: "/multistep-form", label: "Multi-step Form" },
     { path: "/ecommerce-challenge", label: "Ecommerce Challenge" },
     { path: "/tabs", label: "Tabs" },
-    { path: "/modal", label: "Modal" }
+    { path: "/modal", label: "Modal" },
+    { path: "/simple-form", label: "Simple Form" }
 ];
 
 export function MyAppNav() {

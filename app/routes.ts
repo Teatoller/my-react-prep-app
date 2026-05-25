@@ -15,5 +15,6 @@ export default [
     route("multistep-form", "routes/multistepform.tsx"),
     route("ecommerce-challenge", "routes/shoppingfiltercart.tsx"),
     route("tabs", "routes/tabs.tsx"),
-    route("modal", "routes/modal.tsx")
+    route("modal", "routes/modal.tsx"),
+    route("simple-form", "routes/simpleform.tsx")
 ] satisfies RouteConfig;
