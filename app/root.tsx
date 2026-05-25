@@ -34,8 +34,10 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <Links />
       </head>
       <body>
-        <MyAppNav />
-        {children}
+        <div className="app-shell">
+          <MyAppNav />
+          <main className="main-content">{children}</main>
+        </div>
         <ScrollRestoration />
         <Scripts />
       </body>
@@ -44,7 +46,14 @@ export function Layout({ children }: { children: React.ReactNode }) {
 }
 
 export default function App() {
-  return <Outlet />;
+  return (
+    <div className="app-shell">
+      {/* <MyAppNav /> */}
+      <main className="main-content">
+        <Outlet />
+      </main>
+    </div>
+  );
 }
 
 export function ErrorBoundary({ error }: Route.ErrorBoundaryProps) {

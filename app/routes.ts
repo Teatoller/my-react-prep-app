@@ -14,5 +14,6 @@ export default [
     route("filterable-product-list", "routes/filterableproductlist.tsx"),
     route("multistep-form", "routes/multistepform.tsx"),
     route("ecommerce-challenge", "routes/shoppingfiltercart.tsx"),
-    route("tabs", "routes/tabs.tsx")
+    route("tabs", "routes/tabs.tsx"),
+    route("modal", "routes/modal.tsx")
 ] satisfies RouteConfig;
