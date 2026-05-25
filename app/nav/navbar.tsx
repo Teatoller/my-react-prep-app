@@ -13,7 +13,8 @@ export function MyAppNav() {
         { path: "/toggle-pass", label: "Toggle Password" },
         { path: "/local-storage", label: "Local Storage" },
         { path: "/multistep-form", label: "Multi-step Form" },
-        { path: "/ecommerce-challenge", label: "Ecommerce Challenge" }
+        { path: "/ecommerce-challenge", label: "Ecommerce Challenge" },
+        { path: "/tabs", label: "Tabs" }
     ];
 
     return (
