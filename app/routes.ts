@@ -13,5 +13,6 @@ export default [
     route("local-storage", "routes/storage.tsx"),
     route("filterable-product-list", "routes/filterableproductlist.tsx"),
     route("multistep-form", "routes/multistepform.tsx"),
-    route("ecommerce-challenge", "routes/shoppingfiltercart.tsx")
+    route("ecommerce-challenge", "routes/shoppingfiltercart.tsx"),
+    route("tabs", "routes/tabs.tsx")
 ] satisfies RouteConfig;
